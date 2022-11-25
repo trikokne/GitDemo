@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module_login_verifyUN.Upstoxexample_POM_DDF_TestNG">
+      <class name="logout_module_verifyUN.Testclass_login_out_testNG">
         <methods>
-          <include name="logout"/>
-          <include name="verifyUN"/>
-          <include name="login"/>
+          <include name="verifyun"/>
+          <include name="getScreenshot"/>
           <include name="browserclose"/>
           <include name="browseropen"/>
+          <include name="loginapp"/>
         </methods>
-      </class> <!-- module_login_verifyUN.Upstoxexample_POM_DDF_TestNG -->
+      </class> <!-- logout_module_verifyUN.Testclass_login_out_testNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
